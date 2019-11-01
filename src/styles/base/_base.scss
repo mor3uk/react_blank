@@ -1,0 +1,21 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+}
+
+button, input, textarea {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    &:disabled {
+        cursor: default;
+    }
+}
+
+.active-page {
+    color: #000;
+}
