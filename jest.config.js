@@ -1,9 +1,9 @@
-{
-    "setupFiles": [
+module.exports = {
+    setupFiles: [
         "raf/polyfill",
         "<rootDir>/src/tests/setupTests.js"
     ],
-    "snapshotSerializers": [
+    snapshotSerializers: [
         "enzyme-to-json/serializer"
     ]
-}
+};
