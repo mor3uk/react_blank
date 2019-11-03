@@ -2,9 +2,6 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-body {
-}
-
 button, input, textarea {
     outline: none;
 }
@@ -14,8 +11,4 @@ button {
     &:disabled {
         cursor: default;
     }
-}
-
-.active-page {
-    color: #000;
 }
